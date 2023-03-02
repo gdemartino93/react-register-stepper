@@ -1,14 +1,25 @@
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <div className="test">
-          <h1>asdsadasdasdasdasd</h1>
-        </div>
-      </header>
+      <div className="step d-flex justify-content-center align-items-center">
+        <form>
+          <label>Nome</label>
+          <input type={"text"}></input>
+          <button className="btn btn-success">GO</button>
+        </form>
+      </div>
+      <div className="step d-flex justify-content-center align-items-center">
+        <form>
+          <label>Nome</label>
+          <input type={"text"}></input>
+        </form>
+      </div>
+      <div className="step d-flex justify-content-center align-items-center">
+        <form>
+          <label>Nome</label>
+          <input type={"text"}></input>
+        </form>
+      </div>
     </div>
   );
 }

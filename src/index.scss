@@ -4,8 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.App{
+  height: 100vh;
+  background-color: burlywood;
+  overflow: hidden;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.step{
+  height: 100vh;
 }
