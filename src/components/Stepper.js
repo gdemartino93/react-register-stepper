@@ -40,7 +40,7 @@ const Stepper = () => {
             <form>
             <label>Citta</label>
             <input type="text" ref={city}></input>
-            <a className="btn btn-success" onClick={()=>handleRef(city)}>Registrati</a>
+            <button className="btn btn-success" type='submit' onClick={()=>handleRef(city)}>Registrati</button>
 
             </form>
         </div>
